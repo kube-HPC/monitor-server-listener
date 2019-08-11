@@ -4,7 +4,8 @@
 	"description": "check for monitor-server-listener response",
 	"main": "app.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 0"
+		"test": "echo \"Error: no test specified\" && exit 0",
+		"build": "dockerfile/build.sh monitor-server-listener"
 	},
 	"author": "maty zisserman",
 	"license": "MIT",
